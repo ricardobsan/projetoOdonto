@@ -1,10 +1,10 @@
 /***************************************** RESPONSIVO *************************************************/
 
-@media(max-width: 600px ){
+@media(max-width: 603px ){
     body{
         margin: 0;
         padding: 0;
-	background-color:white;
+        font-family: 'Bahnschrift', Helvetica, sans-serif;
     }
     /************************principal**********************************/
     .wrapper{
@@ -20,33 +20,35 @@
     text-decoration: none;
     font-family: 'Cooper Black',Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin-top: 3%;
     }
     .boxTopo2{
         background-color:#024a62;
         width: 100%;
-        height: 35px;
+        height: 60px;
+        
+
     }
     .boxTopo{
         background-color:#024a62;
         width: 100%;
         height: 50px;
         justify-content: center;
-        font-family: 'Bahnschrift', Helvetica, sans-serif;
+      
     }
     .menu li a{
         width: 100%;
-        padding: 15px;
+        padding: 10px;
         justify-content: center;
-        font-size: 1em;
-        padding-right: 0px;
+        font-size: 0.8em;        
+        text-align: center;
     }
     .texto{
         width: 100%;
         height:35px;
         text-align: center;
         color: #0e749e;
-        font-family: 'Bahnschrift', Helvetica, sans-serif;
         font-size: 1.2em;
     }
 
@@ -69,7 +71,6 @@
         height: auto;
         border-radius: 10%;
         color: white;
-        font-family: 'Bahnschrift', Helvetica, sans-serif;
     }
 
 /****************************** Harmonizar *********************************/
@@ -78,7 +79,6 @@
         height:35px;
         text-align: center;
         color: #0e749e;
-        font-family: 'Bahnschrift', Helvetica, sans-serif;
         font-size: 1.2em;
     }    
     .boxHarmonizar{
@@ -93,15 +93,13 @@
         width: 80%;
         flex-wrap: wrap;
         color: #0e739d;
-        font-family: 'Bahnschrift', Helvetica, sans-serif;
         text-align: center;
         margin: 0;
         padding: 0;
-
-
+        padding-top: 5%;
     }
     .imgHarmo{
-        width: 90%;
+        width: 80%;
         height: auto;
 
     }
@@ -169,6 +167,80 @@
         font-size: 1em;
 
     }
+
+    
+    /*********************** QUEM SOMOS ***************/
+    /**************************************************/
+    .quemSomos{
+        font-size: 1.1em;
+    }
+    .imgDentista{
+        width: 60%;
+        height: auto;
+        padding: 3%;
+       
+    }
+    
+    .textoSobre{
+        
+        font-size: 0.8em;       
+    }
+    .conecte{
+        padding-bottom: 5%;
+    }
+   /*********************** ALINHAMENTOS ***************/
+    /**************************************************/
+
+    .textoInvisa{
+        padding-top: 3%; 
+        font-size: 1.2em;
+        width: 90%;
+      }
+      
+      .textoInvisa1{
+          font-size: 0.8em;
+          color: #0e749e;
+          width: 90%;
+          padding-top: 3%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      
+      
+      }
+      .textoInvisa1 ul {
+          font-size: 0.9em;
+          width:70%;
+        
+          
+      }
+
+      /*********************** localização ***************/
+    /**************************************************/
+
+    .principal{
+        width: 100%;
+    }
+    .odonto{
+        color: #0e749e;
+        font-size: 2em;
+        margin-bottom: -2px;
+    }
+    .end{
+        color: #0e749e;
+        font-size: 1.2em;
+        width: 70%;
+            
+    }
+    .mapa{
+    
+        width: 90%;
+        height: auto;
+        padding-bottom: 17%;
+        
+    
+    }
+
 }
 
 /******************************* FORMATO DO TEXTO HARMONIZAÇÃO /*********************/
@@ -177,25 +249,26 @@
     .textoHarmo{
         font-size: 0.9em;
         flex-wrap: wrap;
-        font-family: 'Bahnschrift', Helvetica, sans-serif;
         text-align: center;
         margin-left: 2%;
+
     }
+
 
 }
 @media(max-width:800px) {
     .textoHarmo{
         font-size: 0.9em;
         flex-wrap: wrap;
-        font-family: 'Bahnschrift', Helvetica, sans-serif;
         text-align: center;
         margin-left: 2%;
     }
+
 }
 
 /****** Menu zoom maximo *****/
 
-@media(max-width:350px) {
+@media(max-width:360px) {
     nav ul li {
     font-size: 10px;
     
@@ -212,6 +285,29 @@ nav ul li a{
     
  
 }
+
 }
 
-
+@media (max-width:327px) {
+    .tratamento{
+        flex-wrap: wrap;
+    }
+    
+    .imgTratamento{
+        width: 25%;
+        height: auto;
+        
+    
+    
+    }
+    .boxTratamento{
+        
+        background-color:#024a62;
+        width: 58%;
+        height: auto;
+        border-radius: 10%;
+        color: white;
+    }
+  
+    
+}
