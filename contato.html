@@ -30,15 +30,38 @@
     </div>
     <!------------------------------ CONTEUDO -------------------------------------->
 
-    <div class="principal">
-        <div class="quemSomos">FORMULARIO</div> 
+    <div class="conteudo_formulario">
+        <form method="post" id="fcontato" action="mailto:ricardo.bsantos26@sp.senac.br">
+            
+                <legend class="titulo">Agendamento de consulta</legend>
 
-    
+                <label for="cNome" class="name">Nome</label>
+                <input type="text" name="tnome" id="cnome" size="20" maxlength="20"  placeholder= " Digite seu nome aqui " autofocus required />
+                <p>
+                    <label for="cMail" class="name">E-mail</label>
+                    <input type="email" name="tMail" id="cMail" size="30" maxlength="30" placeholder="Ex: exemplo@mail.com" required>
+                </p>
 
-        <div class="textoSobre">
-            <p> EM BREVE!!</p>
+                <p>
+                    <label for="cTel" class="name">Telefone</label>
+                    <input type="email" name="cTel" id="cTel" size="30" maxlength="30" placeholder="Ex: 11 91234-5678" required>
+                </p>
+                <p>
+                    <label for="cTel" class="name">Agendamento</label>
+                    <input type="date" name="tNasc" id="cNasc"/>
+                </p>
 
+                <p>
+                    <label for="cMsg" class="name">Mensagem:</label>
+                    <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+                </p>
+                <div class="btn">
+            <input type="submit" name="Enviar" class="btn1">
+            <input type="reset" name="Limpar" class="btn1">
         </div>
+
+        </form>
+
     </div>
 
 
