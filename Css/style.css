@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    width: 100%;
     padding: 0;
   
 }
@@ -237,14 +236,22 @@ nav ul li a:hover{
     height: auto;
     display: flex;
     flex-direction: column;
-    text-align: center;       
+    text-align: center;  
+     
 }
 .face{
-    width: 100%;            
+    
+    width: 100%;
+    height: auto;
+              
+ }
+ .face1{
+    text-decoration: none;
  }
 .face2{
     width: 10%; 
-    padding: 3%;    
+    padding: 3%;   
+    
 }
 .face2:hover{
     width: 12%; 
@@ -252,12 +259,15 @@ nav ul li a:hover{
 }
 .conecte{
     width: 100%; 
+    padding-top: 0;
+    margin-top: 0;
 }
 .conecte1{
-    
-    text-decoration: none;
+    font-size: 1.2em;
     color: white;
-    font-size: 1.5em;   
+    margin: 0;
+   
+
 }
 
 
@@ -275,4 +285,3 @@ nav ul li a:hover{
     color: white;
     font-size: 0.76em;  
 }
-
