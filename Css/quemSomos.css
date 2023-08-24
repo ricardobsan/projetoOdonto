@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  
+}
+
+
+/************************** principal **************************************/
+.wrapper{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+
+/********************************** MEnu ********************************** */
+
+.logo{
+    text-decoration: none;
+    font-family: 'Cooper Black',Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.9em;
+}
+.logo:hover{
+    font-size: 2em;
+    transition: 600ms;
+}
+
+.boxTopo2{
+    background-color:#024a62;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.boxTopo{
+    background-color:#024a62;
+    width: 70%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+nav{
+	float: right;
+}
+
+nav ul{
+	list-style: none; 
+	margin: 0px;
+	padding: 0px;
+    padding-right: 10px;
+    
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	text-decoration: none; 
+	color: #ffffff;
+	padding: 15px 15px 15px 15px;
+}
+
+nav ul li a:hover{ 
+	color: #fffcfc;
+	border-bottom: #09d0e6 4px solid;
+}
+
+/******************** PRINCIPAL ********************************/
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    font-family: 'Bahnschrift', Helvetica, sans-serif;
+}
+.quemSomos{
+  padding-top: 3%; 
+  color: #0e749e; 
+  font-size: 3em;
+}
+.imgDentista{
+    width: 50%;
+    height: auto;
+    padding: 3%;
+   
+}
+
+.textoSobre{
+    font-size: 1.2em;
+    color: #0e749e;
+    width: 70%;
+}
+/******************************* REDES SOCIAIS ****************************/
+.sociais{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e739d;
+}
+.boxSociais1{
+
+    width: 25.5%;
+    height: auto;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%; 
+}
+.boxSociais2{
+
+    width: 20.5%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    padding-left: 6%;
+}
+.imgClinic{
+    width: 18%;
+    padding-right: -3%;
+    height: 60px;
+    padding-bottom: 13%;     
+}
+.clinica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgClinica{
+    width: 75%;        
+}
+.textoClinic{
+    
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.texto1{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em; 
+}
+.texto1:hover{
+    
+    font-size: 1.5em;
+    transition: 400ms;
+}
+/******************************** SOCIAIS FACE INSTA *************************/
+
+.boxSociais3{
+
+    width: 25.5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+     
+}
+.face{
+    
+    width: 100%;
+    height: auto;
+              
+ }
+ .face1{
+    text-decoration: none;
+ }
+.face2{
+    width: 10%; 
+    padding: 3%;   
+    
+}
+.face2:hover{
+    width: 12%; 
+    padding: 2%;    
+}
+.conecte{
+    width: 100%; 
+    padding-top: 0;
+    margin-top: 0;
+}
+.conecte1{
+    font-size: 1.2em;
+    color: white;
+    margin: 0;
+   
+
+}
+
+/***************************** RODAPE **********************************************/
+.boxRodape{
+    background-color: #024a62;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bahnschrift', Helvetica, sans-serif;
+    color: white;
+    font-size: 0.76em;  
+}
