@@ -254,6 +254,23 @@
     form{
         width: 75%;
     }
+    /*********************** TELA HARMONIZAÇAO ***************/
+    /**************************************************/
+
+    .principal{
+        width: 100%;
+
+    }
+    .telaHarmo{
+        font-size: 1.8em;
+      }
+      .textoHarmo{
+        font-size: 1em;
+        width: 80%;
+        padding-top: 0;
+        padding-bottom: 3%;
+         
+      }
 
 }
 
