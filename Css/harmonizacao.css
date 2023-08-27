@@ -93,22 +93,17 @@ nav ul li a:hover{
     min-height: 50vh; /* alterar para auto */
     font-family: 'Bahnschrift', Helvetica, sans-serif;
 }
-.quemSomos{
+.telaHarmo{
   padding-top: 3%; 
   color: #0e749e; 
-  font-size: 3em;
+  font-size: 2.3em;
 }
-.imgDentista{
-    width: 50%;
-    height: auto;
-    padding: 3%;
-   
-}
-
-.textoSobre{
-    font-size: 1.2em;
+.textoHarmo{
+    font-size: 1em;
     color: #0e749e;
-    width: 70%;
+    width: 80%;
+    padding-bottom: 3%;
+    
 }
 /******************************* REDES SOCIAIS ****************************/
 .sociais{
