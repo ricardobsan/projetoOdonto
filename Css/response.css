@@ -272,6 +272,21 @@
          
       }
 
+          /*********************** TELA NOSSOS TRATAMENTOS ***************/
+    /**************************************************/
+    .textoTrata1{
+        padding-top: 3%; 
+        color: #0e749e; 
+        font-size: 2.2em;
+      }
+    .textoTrata{
+        font-size: 1em;
+        color: #0e749e;
+        width: 80%;
+        padding-bottom: 3%;
+    }
+
+
 }
 
 /******************************* FORMATO DO TEXTO HARMONIZAÇÃO /*********************/
