@@ -1,123 +1,225 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OdontoCare</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="icon">
-    <link rel="stylesheet" href="Css/nossoTratamento.css">
-    <link rel="stylesheet" href="Css/response.css">
-
-</head>
-<body>
-
-        <!-- Menu -->
-    <div class="wrapper">
-        <div class="boxTopo2">
-            <a href="index.html" class="logo">OdontoCare</a>
-        </div>
-
-     <div class="boxTopo"> 
-        <nav> 
-            <ul class="menu">
-                <li><a href="index.html" >Home</a> </li>
-                <li><a href="quemSomos.html" >Quem Somos</a> </li>
-                <li><a href="alinhamento.html" >Alinhamentos</a> </li>
-                <li><a href="contato.html" >Contato</a> </li>
-            </ul>
-        </nav>
-    </div>
-    <!------------------------------ CONTEUDO -------------------------------------->
-
-    <div class="principal">
-        <div class="quemSomos">TRATAMENTOS  </div> 
-
-        
-
-        <div class="textoSobre">
-            <p> EM BREVE !!!</p>
-
-        </div>
-    </div>
+body{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  
+}
 
 
-    <!---------------------------------- Sociais  *-------------------------- -->
+/************************** principal **************************************/
+.wrapper{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
 
-    <div class="sociais">
-        <div class="boxSociais1">
-            <div class="imgClinic">
-                <a href="odontocare.html" class="clinica"> 
-                    <img src="imagens/a clinica.png" alt="imagem de um dente" class="imgClinica"> 
-                </a>
-            </div>
-    
-            <div class="textoClinic">
-                <a href="odontocare.html" class="texto1"> A OdontoCare  </a>
-            </div>
-    
-            <div class="imgClinic">
-                <a href="nossoTratamentos.html" class="clinica"> 
-                    <img src="imagens/tratamento.png" alt="imagem de um dente" class="imgClinica"> 
-                </a>
-            </div>
-    
-            <div class="textoClinic">
-                <a href="nossoTratamentos.html" class="texto1" style="color: rgb(223, 113, 40);"> Nossos tratamentos  </a>
-            </div>
-    
-        </div>                
-                
-        <div class="boxSociais2">
-            <div class="imgClinic">
-                <a href="localizacao.html" class="clinica"> 
-                    <img src="imagens/localiza.png" alt="imagem de um dente" class="imgClinica"> 
-                </a>
-            </div>
-    
-            <div class="textoClinic">
-                <a href="localizacao.html" class="texto1"> Onde estamos  </a>
-            </div>
-    
-            <div class="imgClinic">
-                <a href="harmonizacao.html" class="clinica"> 
-                    <img src="imagens/harmonização.png" alt="imagem de um dente" class="imgClinica"> 
-                </a>
-            </div>
-    
-            <div class="textoClinic">
-                <a href="harmonizacao.html" class="texto1"> Harmonização facial  </a>
-            </div>
-        </div>
+}
+
+/********************************** MEnu ********************************** */
+
+.logo{
+    text-decoration: none;
+    font-family: 'Cooper Black',Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.9em;
+}
+.logo:hover{
+    font-size: 2em;
+    transition: 600ms;
+}
+
+.boxTopo2{
+    background-color:#024a62;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     
     
-            
-        <div class="boxSociais3">
-            <div class="face">
-                <a href="https://www.facebook.com/" class="face1" target="_blank"> 
-                    <img src="imagens/face.png" alt="imagem Facebook" class="face2"> 
-                </a>
-                <a href="https://twitter.com/" class="face1" target="_blank"> 
-                    <img src="imagens/twitter.png" alt="imagem twitter" class="face2"> 
-                </a>
-                <a href="https://www.instagram.com/" class="face1" target="_blank"> 
-                    <img src="imagens/instagram.png" alt="imagem instagram" class="face2"> 
-                </a>
-            </div>
-    
-            <div class="conecte">
-                <p class="conecte1">Conecte-se</p>
-            </div>
-    
-    
-            
-        </div>
+}
+.boxTopo{
+    background-color:#024a62;
+    width: 70%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+nav{
+	float: right;
+}
 
-    </div>
-    <div class="boxRodape">
-        Todos os direitos reservados 2023 - Ricardo Santos
-    </div>
+nav ul{
+	list-style: none; 
+	margin: 0px;
+	padding: 0px;
+    padding-right: 10px;
+    
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	text-decoration: none; 
+	color: #ffffff;
+	padding: 15px 15px 6px 15px;
+}
+
+nav ul li a:hover{ 
+	color: #fffcfc;
+	border-bottom: #09d0e6 4px solid;
+}
+
+/******************** PRINCIPAL ********************************/
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    min-height: 50vh; /* alterar para auto */
+    font-family: 'Bahnschrift', Helvetica, sans-serif;
+}
+.textoTrata1{
+  padding-top: 3%; 
+  color: #0e749e; 
+  font-size: 3em;
+}
+
+.textoTrata{
+    font-size: 1.2em;
+    color: #0e749e;
+    width: 90%;
+    padding-bottom: 3%;
+}
+/******************************* REDES SOCIAIS ****************************/
+.sociais{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e739d;
+}
+.boxSociais1{
+
+    width: 25.5%;
+    height: auto;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%; 
+}
+.boxSociais2{
+
+    width: 20.5%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    padding-left: 6%;
+}
+.imgClinic{
+    width: 18%;
+    padding-right: -3%;
+    height: 60px;
+    padding-bottom: 13%;     
+}
+.clinica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgClinica{
+    width: 75%;        
+}
+.textoClinic{
+    
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.texto1{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em; 
+}
+.texto1:hover{
+    
+    font-size: 1.5em;
+    transition: 400ms;
+}
+/******************************** SOCIAIS FACE INSTA *************************/
 
 
-</body>
-</html>
+.boxSociais3{
+
+    width: 25.5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+     
+}
+.face{
+    
+    width: 100%;
+    height: auto;
+              
+ }
+ .face1{
+    text-decoration: none;
+ }
+.face2{
+    width: 10%; 
+    padding: 3%;   
+    
+}
+.face2:hover{
+    width: 12%; 
+    padding: 2%;    
+}
+.conecte{
+    width: 100%; 
+    padding-top: 0;
+    margin-top: 0;
+}
+.conecte1{
+    font-size: 1.2em;
+    color: white;
+    margin: 0;
+   
+
+}
+
+
+
+/***************************** RODAPE **********************************************/
+.boxRodape{
+    background-color: #024a62;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bahnschrift', Helvetica, sans-serif;
+    color: white;
+    font-size: 0.76em;  
+}
